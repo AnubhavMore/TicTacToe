@@ -1,0 +1,43 @@
+body{
+    background-color: lightgreen;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+h1{
+    color:darkgreen;
+    font-family:'Times New Roman', Times, serif;
+    font-size:3rem ;
+}
+#main-box{
+    width:300px;
+    height:300px;
+    border:5px solid darkgreen;
+    margin:80px auto;
+}
+.row-1{
+    display: flex;
+    justify-content: flex-start;
+    height:33.33%;
+}
+.box{
+    width:33.33%;
+    height:100%;
+    background-color: bisque;
+    font-size: 4rem;
+    border:1px solid darkgreen;
+    color:green;
+}
+#reset-btn{
+    width:100px;
+    height:50px;
+    background-color: black;
+    border-radius: 2rem;
+    color:white;
+    font-size: 15px;
+    border:none;
+
+}
+.hide{
+    display: none;;
+}
